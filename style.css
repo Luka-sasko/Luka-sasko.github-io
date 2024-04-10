@@ -1,0 +1,415 @@
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 186.67px;
+    height: 40px;
+}
+
+.navigation div {
+    margin: 0 10px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navigation ul li {
+    margin: 0 10px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation button {
+    padding: 10px 20px;
+}
+
+.empty1 {
+    width: 368.87px;
+    height: 36px;
+}
+
+.empty2 {
+    width: 368.87px;
+    height: 69.33px;
+}
+
+.header_container {
+    background-color: #F5FCFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    margin-left: 25px;
+    flex: 1;
+}
+
+#getInTouch {
+    margin-top: 10px;
+    height: 40px;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+.purple-text {
+    color: purple;
+}
+
+.aboutsl {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 200px;
+    width: 817px;
+    height: 613px;
+    ;
+}
+
+.sectionTitle {
+    margin-left: 35px;
+    margin-top: 100px;
+}
+
+.skillContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.card {
+    background-color: #F5FCFF;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+    max-width: 80%;
+}
+
+.imageLogo {
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+    background: white;
+}
+
+.imageLogo img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.about {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.about p {
+    font-size: larger;
+}
+
+
+.aboutMeText {
+    margin-left: 100px;
+    margin-right: 100px;
+    flex: 1;
+}
+
+#aboutMeImg {
+    margin-left: 50px;
+    width: 600px;
+    height: 800px;
+}
+
+.blog {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blogText {
+    margin-top: 100px;
+    margin-left: 35px;
+    flex: 1;
+}
+
+.buttonDribbble {
+    display: flex;
+    width: 250px;
+    height: 90px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.buttonDribbble button {
+    display: flex;
+    width: 200px;
+    height: 60px;
+    background-color: rgb(228, 82, 106);
+    color: white;
+    align-items: center;
+}
+
+.buttonDribbble img {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.blogContent {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.item div {
+    margin-top: 10px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    font-weight: bold;
+}
+
+.viewDribble {
+    display: inline-flex;
+    align-items: center;
+}
+
+.viewDribble img {
+    width: 20px;
+    height: 20px;
+}
+
+.testimonial {
+    background-color: #F5FCFF;
+}
+
+.testimonial item {
+    background-color: #F5FCFF;
+}
+
+.testimonialContent .item {
+    background: #F5FCFF;
+}
+
+.avatar img {
+    width: 50px;
+    height: 50px;
+}
+
+.testimonialText {
+    padding-top: 100px;
+    margin-left: 35px;
+}
+
+
+.testimonialContent {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.item {
+    margin-left: 35px;
+    margin-right: 35px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+
+
+.avatar img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+.avatar {
+    display: flex;
+    align-items: center;
+}
+
+.avatarText {
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+.formText {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-form {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 100px;
+    border-radius: 10px;
+
+}
+
+.contact-form h5 {
+    font-size: 24px;
+}
+
+.contact-form h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contact-form p {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid purple;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.form-group button {
+    padding: 10px 20px;
+    background-color: darkmagenta;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #db63ee;
+}
+
+.info {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+#check {
+
+    display: inline-flex;
+}
+
+footer {
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 100px;
+    background-color: #F5FCFF;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+
+.linkovi ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.linkovi ul li {
+    margin-right: 20px;
+}
+
+.linkovi ul li:last-child {
+    margin-right: 0;
+}
+
+.linkovi ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.footerContent .logo img {
+    width: 186.67px;
+    height: 40px;
+}
+
+.footerContent .social-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+hr {
+    border-top: 2px solid black;
+}
+
+.footerCredits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+}
+
+.footerLinks {
+    display: flex;
+}
+
+.footerLinks a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
