@@ -3,6 +3,7 @@
     align-items: center;
 }
 
+
 .logo img {
     width: 186.67px;
     height: 40px;
@@ -417,6 +418,55 @@ hr {
 
 
 @media (max-width: 1024px) {
+
+    body {
+        font-size: 50%; /
+    }
+
+    .header_container,
+    .aboutMeText,
+    .blogText,
+    .testimonialText,
+    .formText,
+    footer {
+        padding-left: 5px; 
+        padding-right: 5px; 
+    }
+
+    .container,
+    .aboutsl,
+    .card,
+    .item,
+    .contact-form,
+    .footerContent {
+        width: 50%; 
+    }
+
+    .logo img,
+    .imageLogo img,
+    #aboutMeImg,
+    .buttonDribbble img,
+    .item img,
+    .avatar img,
+    .footerContent .logo img,
+    .footerContent .social-icons img {
+        width: 50%;
+    }
+
+    .navigation button {
+        padding: 5px 10px; 
+    }
+
+    .navigation ul li a {
+        font-size: smaller; 
+    }
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    
     .navigation ul {
         flex-direction: column;
         align-items: center;
@@ -492,6 +542,47 @@ hr {
 }
 
 @media (max-width: 768px) {
+    body {
+        font-size: 50%; /
+    }
+
+    .header_container,
+    .aboutMeText,
+    .blogText,
+    .testimonialText,
+    .formText,
+    footer {
+        padding-left: 5px; 
+        padding-right: 5px; 
+    }
+
+    .container,
+    .aboutsl,
+    .card,
+    .item,
+    .contact-form,
+    .footerContent {
+        width: 50%; 
+    }
+
+    .logo img,
+    .imageLogo img,
+    #aboutMeImg,
+    .buttonDribbble img,
+    .item img,
+    .avatar img,
+    .footerContent .logo img,
+    .footerContent .social-icons img {
+        width: 50%;
+    }
+
+    .navigation button {
+        padding: 5px 10px; 
+    }
+
+    .navigation ul li a {
+        font-size: smaller; 
+    }
     .navigation {
         flex-direction: column;
         align-items: center;
