@@ -1,6 +1,6 @@
 # LV 1 zadatak - Osobna stranica
 
-### LINK: 
+### LINK: https://luka-sasko.github.io/Luka-sasko.github-io/
 
 <hr />
 
