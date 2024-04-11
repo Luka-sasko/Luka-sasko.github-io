@@ -442,16 +442,6 @@ hr {
         width: 50%; 
     }
 
-    .logo img,
-    .imageLogo img,
-    #aboutMeImg,
-    .buttonDribbble img,
-    .item img,
-    .avatar img,
-    .footerContent .logo img,
-    .footerContent .social-icons img {
-        width: 50%;
-    }
 
     .navigation button {
         padding: 5px 10px; 
@@ -565,16 +555,6 @@ hr {
         width: 50%; 
     }
 
-    .logo img,
-    .imageLogo img,
-    #aboutMeImg,
-    .buttonDribbble img,
-    .item img,
-    .avatar img,
-    .footerContent .logo img,
-    .footerContent .social-icons img {
-        width: 50%;
-    }
 
     .navigation button {
         padding: 5px 10px; 
