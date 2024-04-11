@@ -381,6 +381,7 @@ footer {
     color: black;
 }
 
+
 .footerContent .logo img {
     width: 186.67px;
     height: 40px;
@@ -412,4 +413,146 @@ hr {
     margin-left: 10px;
     text-decoration: none;
     color: black;
+}
+
+
+@media (max-width: 1024px) {
+    .navigation ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigation ul li {
+        margin: 10px 0;
+    }
+
+    .header_container {
+        flex-direction: column;
+    }
+
+    .header_container .content {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    /*      org rezolucija / 3      */
+
+    .logo img {
+        width: 62.22px;
+        height: 13.33px;
+    }
+    
+    .imageLogo img {
+        width: 16.67px;
+        height: 16.67px;
+    }
+    
+    #aboutMeImg {
+        margin-left: 16.67px;
+        width: 200px;
+        height: 266.67px;
+    }
+    
+    .buttonDribbble img {
+        margin-right: 3.33px;
+        width: 16.67px;
+        height: 16.67px;
+    }
+    
+    .item img {
+        width: 33.33%;
+        height: auto;
+        border-radius: 2.67px;
+    }
+    
+    .viewDribble img {
+        width: 6.67px;
+        height: 6.67px;
+    }
+    
+    .avatar img {
+        height: 16.67px;
+        width: 33.33px;
+        height: auto;
+        border-radius: 16.67px;
+        margin-bottom: 3.33px;
+    }
+    
+    .footerContent .logo img {
+        width: 62.22px;
+        height: 13.33px;
+    }
+    
+    .footerContent .social-icons img {
+        width: 13.33px;
+        height: 13.33px;
+    }
+    
+
+}
+
+@media (max-width: 768px) {
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .empty1,
+    .empty2 {
+        display: none;
+    }
+
+
+    /*      org rezolucija / 4      */
+    .logo img {
+        width: 46.67px;
+        height: 10px;
+    }
+
+    .imageLogo img {
+        width: 12.5px;
+        height: 12.5px;
+    }
+
+    #aboutMeImg {
+        margin-left: 12.5px;
+        width: 150px;
+        height: 200px;
+    }
+
+    .buttonDribbble img {
+        margin-right: 2.5px;
+        width: 12.5px;
+        height: 12.5px;
+    }
+
+    .item img {
+        width: 25%;
+        height: auto;
+        border-radius: 2px;
+    }
+
+    .viewDribble img {
+        width: 5px;
+        height: 5px;
+    }
+
+    .avatar img {
+        height: 12.5px;
+        width: 25px;
+        height: auto;
+        border-radius: 12.5px;
+        margin-bottom: 2.5px;
+    }
+
+    .footerContent .logo img {
+        width: 46.67px;
+        height: 10px;
+    }
+
+    .footerContent .social-icons img {
+        width: 10px;
+        height: 10px;
+    }
+
 }
